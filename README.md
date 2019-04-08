@@ -19,12 +19,13 @@ We hebben een basisproject voor je neergezet, maar je bent volledig vrij in alle
 * Nieuwe technieken
 
 ## De API
+De API staat op de volgende locatie: ...
 Om de API te gebruiken dien je 'token'-header mee te sturen met als waarde 'pj11daaQRz7zUIH56B9Z';
 
-### Endpoints
-* GET /posts (http://..../posts)
-* GET /categories (http://..../posts)
-* POST /posts (http://..../posts) (title, content, category_id)
+De API beschikt over de volgende endpoints:
+* GET /posts 
+* GET /categories 
+* POST /posts (title, content, category_id)
 
 ## Handige tips
 Als je op je computer PHP installeert kan je gemakelijk via je commandline een PHP-server starten. Ga in je commandline naar deze folder en voer dan het volgende commando uit om de PHP-server op te starten:
