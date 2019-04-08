@@ -7,7 +7,7 @@ const autoprefixer = require('gulp-autoprefixer');
 const stripCssComments = require('gulp-strip-css-comments');
 
 gulp.task('styles', function() {
-    return gulp.src('css/scss/style.scss')
+    return gulp.src('src/css/scss/style.scss')
         .pipe(sassGlob())
         .pipe(sourcemaps.init())
 		.pipe(sass({ outputStyle: 'compact' }).on('error', sass.logError))
@@ -15,9 +15,9 @@ gulp.task('styles', function() {
         .pipe(autoprefixer('last 2 version'))
         .pipe(stripCssComments({ preserve: false }))
         .pipe(minifycss())
-		.pipe(gulp.dest('css'));
+		.pipe(gulp.dest('src/css'));
 });
 
 gulp.task('default', function() {
-    gulp.watch('css/scss/**', gulp.parallel('styles'));
+    gulp.watch('src/css/scss/**', gulp.parallel('styles'));
 });
