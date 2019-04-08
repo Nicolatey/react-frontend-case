@@ -20,7 +20,7 @@ We hebben een basisproject voor je neergezet, maar je bent volledig vrij in alle
 
 ## De API
 De API staat op de volgende locatie: ...
-Om de API te gebruiken dien je 'token'-header mee te sturen met als waarde `pj11daaQRz7zUIH56B9Z`;
+Om de API te gebruiken dien je 'token'-header mee te sturen met als waarde `pj11daaQRz7zUIH56B9Z`.
 
 De API beschikt over de volgende endpoints:
 
