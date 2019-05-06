@@ -19,7 +19,7 @@ We hebben een basisproject voor je neergezet, maar je bent volledig vrij in alle
 * Nieuwe technieken
 
 ## De API
-De API staat op de volgende locatie: ...
+De API staat op de volgende locatie: `http://178.62.198.162/api/`.
 Om de API te gebruiken dien je 'token'-header mee te sturen met als waarde `pj11daaQRz7zUIH56B9Z`.
 
 De API beschikt over de volgende endpoints:
