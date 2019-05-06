@@ -33,4 +33,4 @@ Als je op je computer PHP installeert kan je gemakelijk via je commandline een P
 ```
 php -S localhost:8000
 ```
-Vervolgens kan je naar `http://localhost:8000/src/index.php` om de website te bekijken.
+Vervolgens kan je naar `http://localhost:8000/src/index.php` om de website te bekijken. Er zijn ook andere manieren om een lokale PHP-server op te starten, dat is helemaal aan jou.
