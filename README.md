@@ -24,9 +24,9 @@ Om de API te gebruiken dien je 'token'-header mee te sturen met als waarde `pj11
 
 De API beschikt over de volgende endpoints:
 
-* `GET /posts`
+* `GET /posts?page={pageNr}`
 * `GET /categories` 
-* `POST /posts` (title, content, category_id)
+* `POST /posts` (title: string, content: string, category_id: number)
 
 ## Handige tips
 Als je op je computer PHP installeert kan je gemakelijk via je commandline een PHP-server starten. Ga in je commandline naar deze folder en voer dan het volgende commando uit om de PHP-server op te starten:
