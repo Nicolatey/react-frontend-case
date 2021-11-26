@@ -26,11 +26,9 @@ const Blog = () => {
   }, []);
 
   return (
-    <div className="container px-4 py-6 md:px-14 md:py-16 bg-gray-100">
-      <div className="container bg-white p-8">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-          {posts}
-        </div>
+    <div className="container bg-white p-8">
+      <div className="grid gap-8 grid-cols-1 sm:grid-cols-2">
+        {posts}
       </div>
     </div>
   );

@@ -1,6 +1,6 @@
-import Mask1 from "../img/Mask1.png";
+import Blog from "./Blog";
 
-const Home = () => {
+const Home = (props) => {
   return (
     <div className="container px-4 py-6 md:px-14 md:py-16 bg-gray-100">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -9,7 +9,7 @@ const Home = () => {
           <div className="flex flex-col pb-4 md:pb-8">
             <label className="font-medium">
               Berichtnaam
-              </label>
+            </label>
             <input 
               type="text"
               id="message_name"
@@ -42,23 +42,7 @@ const Home = () => {
             Bericht aanmaken
           </button>
         </div>
-        <div className="flex flex-col bg-white p-6 md:p-8">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="shadow-md rounded-md">
-              <img src={Mask1} alt="" />              
-              <div className="p-6">
-                <h1 className="text-3xl font-bold text-gray-700 pb-4">Heading</h1>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eget metus blandit, 
-                  pharetra nisi eu, aliquet leo. Mauris lacinia commodo risus, id lobortis massa ultrices nec.
-                </p>
-              </div>
-            </div>
-          </div>
-          <button className="flex justify-center items-center h-10 w-64 my-4 bg-yellow-600 rounded-full text-white font-semibold">
-            Meer laden
-          </button>
-        </div>
+        <Blog />
       </div>
     </div>
   );
